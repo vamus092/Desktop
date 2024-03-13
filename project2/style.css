@@ -36,15 +36,22 @@ html,body{
     height: 100%;
     width: 100%;
     position: absolute;
-    z-index: 7;
+    z-index: 6;
 }
 
-#yellow{
+#yellow1{
     height: 100%;
     position: absolute;
     width: 100%;
     background-color: #f5e41b;
     z-index: 8;
+}
+#yellow2{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: #f5e41b;
+    z-index: 7;
 }
 
 #page1
