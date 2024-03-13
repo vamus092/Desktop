@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Freight big pro,serif";
 }
 
 html,body{
@@ -21,8 +22,12 @@ html,body{
     text-align: center;
 }
 #page1 h1{
-    font-size: 6vw;
-    line-height: 6vw;
+    color: #231f20;
+    font-weight: 100;
+   line-height: 1.2em;
+   font-size: 6.9vw;
+   letter-spacing: -3px ;
+
 }
 #page2{
 
