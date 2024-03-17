@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "General Sans";
+    font-family: "GeneralSans Regular";
 }
 html, body{
     width: 100%;
@@ -12,14 +12,29 @@ html, body{
     width:100%
 }
 #hero{
+    color: #fff;
 width: 100%;
 height: 100vh;
 background-color: #0000;
 }
 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    padding:20px 40px
+    padding:20px 40px;
+    color: #fff;    
 }
 #nav a{
+    text-decoration: none;
+    font-size: 18px;
     color: #fff;
+}
+#heading{
+    opacity: .6;
+    font-family: "Genral Sans Medium";
+    line-height: 1;
+    font-size: 9vw;
+    text-transform:uppercase ;
+font-weight: 900;
 }
