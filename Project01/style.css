@@ -210,3 +210,31 @@ color: #ffffff;
     font-size: 14px;
     margin-top: 10px;
 }
+
+#footer{
+    color: #7fddf5;
+    font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 40px 30px;
+}
+
+#footerleft{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#footerright{
+    display: flex;
+    gap: 30px;
+}
+#footer a{
+    color: #72d2d0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+
+}
