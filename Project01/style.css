@@ -143,5 +143,70 @@ opacity: 0.7;
 
 #elem img{
     position: absolute;
+    /* opacity: 0; */
+    display: none;
 z-index: 999;
+height: 140%;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap:50px;
+color: #ffffff;
+    width: 100%;
+    padding: 10vw 5vw;
+    padding-left: 35vw;
+    width: 100%;
+    background-color: #000000;
+}
+
+#about img
+{width:280px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+#text{
+    width: 80%;
+    /* background-color: red; */
+}
+#text h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+#text p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-size: larger;
+}
+#text a{
+    padding: 12px 22px;
+    border: 1px solid wheat;
+    border-radius:100px;
+    color:#ffffff;
+    font-size: 12px;
+    text-decoration: none;
+
+    font-size: large;
+}
+
+#subscribe{
+    background-color: #000000;
+    padding: 20px 30px;
+    color: aliceblue;
+    padding-bottom: 7vw;
+
+}
+
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: .6;
+}
+#subscribe h3{
+    text-transform:uppercase;
+    font-size: 14px;
+    margin-top: 10px;
 }
