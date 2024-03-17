@@ -77,3 +77,22 @@ font-weight: 900;
     font-size: 1vw;
     padding-right: 30px;
 }
+#herofooter
+{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+#herofooter a
+{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#herfooter circle{
+    width: 20px;
+height: 25px;
+border-radius:50% ;
+}
