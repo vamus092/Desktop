@@ -11,12 +11,20 @@ html, body{
 }
 #mincircle{
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.7s;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     position: absolute;
     z-index: 99999;
     border-radius: 50%;
     background-color: aliceblue;
+}
+.bound{
+    width: fit-content;
+    /* background-color: #fc0000; */
+    overflow: hidden;
+}
+.bound .boundingelem{
+    transform: translateY(100%);
 }
 #main{
     width:100%;
@@ -36,14 +44,14 @@ background-color: #0000;
     justify-content: space-between;
     width: 100%;
     padding:20px 40px;
-    color: #ffffff;    
+    color: #88d1e7;    
 }
 #nav a{
     font-family: "General Sans Medium";
     margin-top: 15px ;
     text-decoration: none;
     font-size: 24px;
-    color: #ffffff;
+    color: #7ebde1;
 }
 #nav a h4{
     font-family: "General Sans Regular";
@@ -67,16 +75,24 @@ font-weight: 900;
 }
 #blocktext{
     width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
     /* background-color: red; */
 }
 
 #blocktext h5{
+    /* background-color: #7ebde1; */
     text-transform: uppercase;
     font-size: 15px;
-    text-align: right;
+    text-align: right !important;
 }
 #smolheadings
 {  margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
  padding-right: 50px;
 }
 
