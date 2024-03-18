@@ -44,14 +44,14 @@ background-color: #0000;
     justify-content: space-between;
     width: 100%;
     padding:20px 40px;
-    color: #88d1e7;    
+    color: #ddc884;    
 }
 #nav a{
     font-family: "General Sans Medium";
     margin-top: 15px ;
     text-decoration: none;
     font-size: 24px;
-    color: #7ebde1;
+    color: #e1ca7e;
 }
 #nav a h4{
     font-family: "General Sans Regular";
@@ -81,11 +81,12 @@ font-weight: 900;
     /* background-color: red; */
 }
 
-#blocktext h5{
+.blocktext h5{
     /* background-color: #7ebde1; */
     text-transform: uppercase;
     font-size: 15px;
-    text-align: right !important;
+    /* text-align: right !important; */
+    margin-left: 60%;
 }
 #smolheadings
 {  margin-top: 100px;
@@ -125,14 +126,15 @@ justify-content: space-between;
     gap: 5px;
 }
 
-#iconset circle{
+#herofooter .circle{
     display: flex;
     align-items: center;
     justify-content: center;
        width: 25px;
        height: 25px;
        border-radius: 50%;
-       background-color: #f58282;
+       background-color: #807373;
+       
 }
 
 #second{
@@ -253,10 +255,10 @@ padding: 40px 30px;
 }
 
 #footerleft{
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
 
 #footerright{
     display: flex;
