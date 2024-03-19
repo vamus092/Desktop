@@ -67,7 +67,7 @@ document.querySelectorAll(".elem").forEach(function(elem){
       ease:Power3,
       top:diff,
       left:dets.clientX,
-      rotate:  gsap.utils.clamp(-20,20,diff*.2),
+      rotate: gsap.utils.clamp(-20,20,diff*0.2),
      });
   });
 });
