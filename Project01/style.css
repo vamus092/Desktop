@@ -16,7 +16,7 @@ html, body{
     position: absolute;
     z-index: 99999;
     border-radius: 50%;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 .bound{
     width: fit-content;
@@ -32,7 +32,7 @@ html, body{
 }
 #hero{
     position: relative;
-    color: #ddc3c3;
+    color: #ffffff;
 width: 100%;
 height: 100vh;
 background-color: #0000;
@@ -44,14 +44,14 @@ background-color: #0000;
     justify-content: space-between;
     width: 100%;
     padding:20px 40px;
-    color: #ddc884;    
+    color: #ffffff;    
 }
 #nav a{
     font-family: "General Sans Medium";
     margin-top: 15px ;
     text-decoration: none;
     font-size: 24px;
-    color: #e1ca7e;
+    color: #ffffff;
 }
 #nav  h4{
     font-family: "General Sans Regular";
@@ -139,7 +139,7 @@ justify-content: space-between;
 }
 
 #second{
-    color: #ddc3c3;
+    color: #ffffff;
     padding-top: 200px;
     /* padding-left: 4vw; */
     padding-right: 10vw;
@@ -155,7 +155,7 @@ justify-content: space-between;
 padding-right: 0;
     width: 100%;
     padding:  3.5vw 3vw;
-    border-top: 1px solid #8579d4;
+    border-top: 1px solid #ffffff;
 position: relative;
 }
 
