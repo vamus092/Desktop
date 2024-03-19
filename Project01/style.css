@@ -20,7 +20,6 @@ html, body{
 }
 .bound{
     width: fit-content;
-    /* background-color: #fc0000; */
     overflow: hidden;
 }
 .bound .boundingelem{
@@ -67,7 +66,7 @@ background-color: #0000;
     line-height: 1;
     font-size: 10.65vw;
     text-transform:uppercase ;
-font-weight: 900;
+font-weight: 900;]color: #fff;
 }
 
 #heading #secondh1{
