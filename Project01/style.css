@@ -250,7 +250,7 @@ color: #ffffff;
 }
 
 #footer{
-    color: #7fddf5;
+    color: #ffffff;
     font-size: 20px;
 display: flex;
 align-items: center;
@@ -268,7 +268,7 @@ gap: 20px;
     gap: 30px;
 }
 #footer a{
-    color: #72d2d0;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
