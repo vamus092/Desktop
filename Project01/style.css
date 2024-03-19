@@ -53,7 +53,7 @@ background-color: #0000;
     font-size: 24px;
     color: #e1ca7e;
 }
-#nav a h4{
+#nav  h4{
     font-family: "General Sans Regular";
     font-size: 18px;
 }
@@ -73,7 +73,8 @@ font-weight: 900;
 #heading #secondh1{
     margin-left: 230px;
 }
-#blocktext{
+
+.blocktext{
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -85,8 +86,8 @@ font-weight: 900;
     /* background-color: #7ebde1; */
     text-transform: uppercase;
     font-size: 15px;
-    /* text-align: right !important; */
-    margin-left: 60%;
+    text-align: right !important;
+    /* margin-left: 60%; */
 }
 #smolheadings
 {  margin-top: 100px;
@@ -101,8 +102,8 @@ font-weight: 900;
     text-transform: uppercase;
     margin-top: 0.5vw;
     font-size: 1vw;
-    padding-right: 30px;
-}
+    /* padding-right: 30px;*/
+} 
 #herofooter
 {
     padding: 0 2vw;
@@ -140,14 +141,14 @@ justify-content: space-between;
 #second{
     color: #ddc3c3;
     padding-top: 200px;
-    padding-left: 4vw;
+    /* padding-left: 4vw; */
     padding-right: 10vw;
     background-color: #000000;
     width: 100%;
     height:100vh;
 }
 
-#elem {
+.elem {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -157,30 +158,32 @@ padding-right: 0;
     border-top: 1px solid #8579d4;
 position: relative;
 }
-#second   h1{
+
+.elem h1{
     text-transform: uppercase;
     font-size: 7.6vw;
-    
 opacity: 0.7;
 }
 
-#elast{
-    display: flex;
+.elast{
+    /* display: flex;
     align-items: center;
     justify-content: space-between;
 padding-right: 0;
     width: 100%;
-    padding:  4px 2px;
+    padding:  4px 2px; */
    border-bottom:1px solid #8579d4;
-   position: relative;
+   /* position: relative; */
 }
 
-#elem img{
+.elem img{
     position: absolute;
-    /* opacity: 0; */
+    opacity: 0;
+    pointer-events: none;
     display: none;
 z-index: 999;
 height: 140%;
+transform: translate(-50%,-50%);
 }
 
 #about{
@@ -197,16 +200,19 @@ color: #ffffff;
 }
 
 #about img
-{width:280px;
+{margin-top: 15vh;
+    width:280px;
     height: 280px;
     border-radius: 50%;
 }
+
 
 #text{
     width: 80%;
     /* background-color: red; */
 }
 #text h5{
+    margin-top: 15vh;
     text-transform: uppercase;
     opacity: .6;
     margin-bottom: 10px;
@@ -217,19 +223,18 @@ color: #ffffff;
     font-size: larger;
 }
 #text a{
+
     padding: 12px 22px;
     border: 1px solid wheat;
     border-radius:100px;
     color:#ffffff;
     font-size: 12px;
     text-decoration: none;
-
     font-size: large;
 }
-
 #subscribe{
     background-color: #000000;
-    padding: 20px 30px;
+    padding: 5px 10px;
     color: aliceblue;
     padding-bottom: 7vw;
 
@@ -256,8 +261,7 @@ padding: 40px 30px;
 
 #footerleft{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+gap: 20px;
     }
 
 #footerright{
