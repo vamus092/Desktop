@@ -65,6 +65,7 @@ document.querySelectorAll(".elem").forEach(function (elem) {
     });
   });
 });
+
 // function showTime(){
 //     var date = new Date();
 //     var h = date.getHours(); // 0 - 23
